@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-study-code",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xkfe/nodejs-study-code.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xkfe/nodejs-study-code/issues"
+  },
+  "homepage": "https://github.com/xkfe/nodejs-study-code#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/blessed": "^0.1.25",
+    "@types/node": "^22.15.24",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.11.0",
+    "systeminformation": "^5.27.1"
+  }
+}

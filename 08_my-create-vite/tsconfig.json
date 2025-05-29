@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "dist", // 输出目录
+    "types": [
+      "node"
+    ], // 类型
+    "target": "es2016", // 目标版本
+    "module": "NodeNext", // 模块类型
+    "moduleResolution": "NodeNext", // 模块解析
+    "esModuleInterop": true, // 启用 ES 模块互操作
+    "forceConsistentCasingInFileNames": true, // 强制一致的文件名大小写
+    "strict": true, // 启用所有严格类型检查选项
+    "skipLibCheck": true, // 跳过库检查
+  },
+  "exclude": [
+    "template-**"
+  ]
+}

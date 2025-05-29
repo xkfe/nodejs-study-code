@@ -10,6 +10,15 @@
       "name": "debug systeminformation-test",
       "console": "integratedTerminal",
       "program": "${workspaceFolder}/07_cli-dashboard/src/systeminformation-test.js",
+    },
+    {
+      "name": "Launch Program",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/09_node-debug/src/index.js",
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
     }
   ]
 }

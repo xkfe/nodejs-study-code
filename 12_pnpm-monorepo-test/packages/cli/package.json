@@ -1,0 +1,22 @@
+{
+  "name": "@xkfe/cli",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "bin": {
+    "num-cli": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@xkfe/core": "workspace:^",
+    "chalk": "^5.4.1",
+    "commander": "^14.0.0"
+  }
+}
